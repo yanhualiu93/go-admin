@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="52fdfb6a-0320-41ba-a552-3331f7928249" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/go-admin.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/custom/Map.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/custom/database.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/custom/etcd.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/custom/request.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/custom/response.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/errors/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/handler/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/middleware/middleware.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/page/page.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/templates/goxorm/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/templates/goxorm/struct.go.tpl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/auth/auth-api/handler/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/auth/auth-api/handler/validate.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/auth/auth-api/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/auth/auth-server/errors/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/auth/auth-server/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/auth/auth-server/service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/auth/auth-server/token/token.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/auth/auth-server/utils/util.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/JOB_EXECUTION_LOG.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/JOB_STATUS_TRACE_LOG.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/db.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/sys_dept.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/sys_dept_relation.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/sys_dict.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/sys_log_0.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/sys_log_1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/sys_menu.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/sys_oauth_client_details.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/sys_role.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/sys_role_dept.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/sys_role_menu.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/sys_user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/sys_user_role.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/sys_zuul_route.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/zipkin_annotations.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/zipkin_dependencies.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/models/zipkin_spans.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/system-api/handler/init.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/system-api/handler/user/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/system-api/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/system-server/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/system-server/service/org.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system/system-server/service/user.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verification-code/code-api/handler/handler.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verification-code/code-api/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verification-code/code-server/errors/error.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verification-code/code-server/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verification-code/code-server/model/code.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verification-code/code-server/service/service.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verification-code/code-server/store/redisStore.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Request</find>
+      <find>labix.org/v2/mgo</find>
+      <find>text</find>
+      <find>etcd</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Response</replace>
+    </replaceStrings>
+  </component>
+  <component name="GOROOT" path="/usr/local/Cellar/go/1.12.1/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/verification-code/code-api/handler/handler.go" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="954" />
+  </component>
+  <component name="ProjectId" id="1QraR83Kgf4fQWI6yL7lYNSZEj5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="configurable.Global.GOPATH.is.expanded" value="true" />
+    <property name="configurable.Module.GOPATH.is.expanded" value="false" />
+    <property name="configurable.Project.GOPATH.is.expanded" value="true" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.vendoring.notification.had.been.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/common" />
+      <recent name="$PROJECT_DIR$/verification-code/code-server" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/system/system-api/handler/user" />
+      <recent name="$PROJECT_DIR$/system" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Go Build.go build main.go">
+    <configuration name="go build auth api" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="go-admin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-tags etcd" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/system/auth/auth-api/main.go" />
+      <package value="go-admin" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build auth-server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="go-admin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-tags etcd" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/system/auth/auth-server/main.go" />
+      <package value="go-admin" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build code-api" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="go-admin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i -tags etcd" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/verification-code/code-api/main.go" />
+      <package value="go-admin" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build code-server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="go-admin" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i -tags etcd" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/verification-code/code-server/main.go" />
+      <package value="go-admin" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build main.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-admin" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/main.go" />
+      <package value="go-admin" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build auth api" />
+      <item itemvalue="Go Build.go build auth-server" />
+      <item itemvalue="Go Build.go build code-server" />
+      <item itemvalue="Go Build.go build code-api" />
+      <item itemvalue="Go Build.go build main.go" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build main.go" />
+        <item itemvalue="Go Build.go build code-api" />
+        <item itemvalue="Go Build.go build code-server" />
+        <item itemvalue="Go Build.go build auth api" />
+        <item itemvalue="Go Build.go build auth-server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+    <proxy>https://goproxy.io</proxy>
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="*(*&quot;github.com/smallnest/rpcx/client.ServiceError&quot;)(824635453056)" language="go" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>*(*&quot;github.com/smallnest/rpcx/client.ServiceError&quot;)(824635453056)</expression-string>
+        <language-id>go</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
